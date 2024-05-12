@@ -1,0 +1,23 @@
+
+.navbar{
+
+  height: auto;
+  padding: 20px 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.navbar_text{
+ color: dodgerblue;
+ font-size: 16px;
+}
+.navbar h1{
+  color: dodgerblue;
+  margin-left: 5px;
+}
+@media  (max-width:500px) {
+  .navbar_text{
+    display: none;
+  }
+}
